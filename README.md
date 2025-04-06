@@ -17,3 +17,5 @@ selectable models
 * mixtral-8x7b-32768
 
 ![](https://raw.githubusercontent.com/nofonbg/groq/refs/heads/main/credentials.jpg)
+
+currently available models may differ: https://console.groq.com/docs/models
