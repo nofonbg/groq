@@ -34,12 +34,14 @@ class connector extends \local_ai_manager\base_connector {
 
     #[\Override]
     public function get_models_by_purpose(): array {
-        $groqmodels = ['gemma2-9b-it', 'llama-3.2-11b-vision-preview', 'llama-3.2-1b-preview', 'llama-3.2-3b-preview', 'llama-3.2-90b-vision-preview', 'llama-3.3-70b-specde', 'llama-3.3-70b-versatile', 'llama-guard-3-8b', 'llama3-70b-8192', 'llama3-8b-8192', 'mixtral-8x7b-32768'];
+      $groqmodels = ['openai/gpt-oss-120b', 'qwen/qwen3-32b', 'canopylabs/orpheus-arabic-saudi', 'canopylabs/orpheus-v1-english', 'groq/compound', 'groq/compound-mini', 'llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'meta-llama/llama-4-scout-17b-16e-instruct', 'meta-llama/llama-4-scout-17b-16e-instruct', 'meta-llama/llama-prompt-guard-2-86m', 'moonshotai/kimi-k2-instruct-0905', 'openai/gpt-oss-20b', 'openai/gpt-oss-safeguard-20b', 'whisper-large-v3', 'whisper-large-v3-turbo'];
         return [
                 'chat' => $groqmodels,
                 'feedback' => $groqmodels,
                 'singleprompt' => $groqmodels,
                 'translate' => $groqmodels,
+                'agent' => $groqmodels,
+
         ];
     }
 
