@@ -41,7 +41,7 @@ class connector extends \local_ai_manager\base_connector {
                 'singleprompt' => $groqmodels,
                 'translate' => $groqmodels,
                 'agent' => $groqmodels,
-
+                'questiongeneration' => $models,                
         ];
     }
 
