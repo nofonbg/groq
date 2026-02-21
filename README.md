@@ -23,6 +23,6 @@ groqmodels
 * whisper-large-v3
 * whisper-large-v3-turbo
 
-
-
 currently available models may differ: https://console.groq.com/docs/models
+
+Free API-key is available at https://console.groq.com
